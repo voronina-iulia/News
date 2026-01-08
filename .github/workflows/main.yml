@@ -9,12 +9,4 @@ jobs:
       - run: echo "Hello, world!"
       - run: pwd
       - run: ls -la
-            - name: Show Deployment URL
-        run: |
-          echo "========================================"
-          echo "🚀 DEPLOYMENT SUCCESSFUL!"
-          echo "========================================"
-          echo "🌐 Live URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
-          echo "📁 Source code: https://github.com/${{ github.repository }}"
-          echo "🔄 Auto-deploys on every push to main"
-          echo "========================================"
+      
